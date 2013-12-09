@@ -41,7 +41,7 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity implements CvCameraViewListener2, OnTouchListener {
 	private static final String TAG = "OCVSample::Activity";
-  
+    
 	private CameraView mOpenCvCameraView;
 	private List<Size> mResolutionList;
 	private MenuItem[] mEffectMenuItems;
